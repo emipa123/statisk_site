@@ -9,18 +9,18 @@ img {
   width: 100%;
   height: auto;
   display: block;
+  padding-top: 50px;
 }
 
-/* grid1-1 */
+/* grid1-1-1 */
 
-.grid1-1 {
+.grid1-1-1 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
 }
 .udsolgt {
-  opacity: 50%;
+  opacity: 30%;
 }
 .rabat {
   color: red;
@@ -53,6 +53,12 @@ h2 {
   color: black;
   text-align: center;
   font-size: 50px;
+}
+h3 {
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+  padding-top: 20px;
 }
 a {
   text-decoration: none;

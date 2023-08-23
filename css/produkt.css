@@ -9,6 +9,7 @@ img {
   width: 100%;
   height: auto;
   display: block;
+  padding-top: 30px;
 }
 
 .img-produkt {
@@ -24,6 +25,43 @@ img {
 .tekst-produkt {
   padding-top: 200px;
   padding-left: 300px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: black;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+.læsmere {
+  display: inline-block;
+  color: black;
+}
+
+.læsmere:hover {
+  text-decoration: underline;
 }
 /* General */
 body {

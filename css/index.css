@@ -11,43 +11,6 @@ img {
   display: block;
 }
 
-.kategori-liste {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-}
-
-.kategori-liste ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-}
-
-.kategori-liste li {
-  margin: 10px;
-  list-style: none;
-}
-
-.kategori-liste a {
-  display: block;
-  width: 150px;
-  height: 150px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  text-align: center;
-  line-height: 150px;
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  transition: background-color 0.3s;
-}
-
-.kategori-liste a:hover {
-  background-color: #ddd;
-}
-
 /* General */
 body {
   background-color: white;
