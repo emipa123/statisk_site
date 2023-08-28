@@ -16,6 +16,12 @@ function showProduct(product) {
     //produktet udsolgt
     copy.querySelector("article").classList.add("soldOut");
   }
+
+  if (product.discount) {
+    //produktet rabat
+    copy.querySelector("p span").classList.add("rabat");
+  }
+
   copy.querySelector("img").src = `https://kea-alt-del.dk/t7/images/webp/640/${product.id}.webp`;
   copy.querySelector("p span").textContent = product.price;
   copy.querySelector("p.brandname").textContent = product.brandname;
