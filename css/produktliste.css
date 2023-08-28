@@ -13,10 +13,24 @@ img {
 }
 
 /* grid1-1-1 */
-article {
+main {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+article {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .soldOut {
@@ -25,6 +39,7 @@ article {
 .rabat {
   color: red;
 }
+
 /* General */
 body {
   background-color: white;
