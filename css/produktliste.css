@@ -13,13 +13,13 @@ img {
 }
 
 /* grid1-1-1 */
-
-.grid1-1-1 {
+article {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 50px;
 }
-.udsolgt {
+
+.soldOut {
   opacity: 30%;
 }
 .rabat {
