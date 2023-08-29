@@ -14,7 +14,7 @@ function showProduct(product) {
   copy.querySelector("h3").textContent = product.productdisplayname;
   if (product.soldout) {
     //produktet udsolgt
-    copy.querySelector("article").classList.add("soldOut");
+    copy.querySelector("article img").classList.add("soldOut");
   }
 
   if (product.discount) {
