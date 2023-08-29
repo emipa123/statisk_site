@@ -11,7 +11,7 @@ img {
   display: block;
 }
 
-.kategori-liste {
+.brandList {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,18 +19,18 @@ img {
   margin: 0;
 }
 
-.kategori-liste ul {
+.brandList ol {
   list-style: none;
   padding: 0;
   display: flex;
 }
 
-.kategori-liste li {
+.brandList li {
   margin: 10px;
   list-style: none;
 }
 
-.kategori-liste a {
+.brandList a {
   display: block;
   width: 150px;
   height: 150px;
@@ -44,7 +44,7 @@ img {
   transition: background-color 0.3s;
 }
 
-.kategori-liste a:hover {
+.brandList a:hover {
   background-color: #ddd;
 }
 
